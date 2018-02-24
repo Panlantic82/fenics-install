@@ -15,6 +15,6 @@ cd ../instant && sudo pip3 install .
 cd ../dijitso && sudo pip3 install .
 cd ../ufl     && sudo pip3 install .
 cd ../ffc     && sudo pip3 install .
-cd ../dolfin  && mkdir -p build && cd build && cmake .. && make install
+cd ../dolfin  && mkdir -p build && cd build && sudo cmake .. && sudo make install
 cd ..
-cd ../mshr    && mkdir -p build && cd build && cmake .. && make install
+cd ../mshr    && mkdir -p build && cd build && sudo cmake .. && sudo make install
