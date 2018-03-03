@@ -7,4 +7,4 @@ sudo apt-get install docker-ce -y
 sudo usermod -aG docker $USER
 sudo apt-get install paraview gmsh -y
 curl -s https://get.fenicsproject.org | bash
-fenicsproject pull
+sudo docker pull quay.io/fenicsproject/stable:current
